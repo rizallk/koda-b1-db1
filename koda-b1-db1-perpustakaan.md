@@ -37,6 +37,8 @@ erDiagram
     int peminjam_buku_id PK
     int peminjam_id FK
     int buku_id FK
+    date tanggal_pinjam
+    date tanggal_balik
   }
 
   BUKU }| -- o| KATEGORI : memiliki
